@@ -1,0 +1,10 @@
+n=int(input('enter n'))
+Even_sum=0
+Odd_sum=0
+for i in range(1,n+1):
+       if i%2==0:
+               Even_sum=Even_sum+i
+       else:
+             Odd_sum=Odd_sum+i
+print('even sum is:',Even_sum)
+print('odd sum is:',Odd_sum)
