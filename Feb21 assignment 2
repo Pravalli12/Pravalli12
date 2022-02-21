@@ -1,0 +1,6 @@
+n=int(input("enter number:"))
+k=n
+for i in range(0,k+1):
+    for j in range(k-i,0,-1):
+        print("*",end=' ')
+    print("\n")
