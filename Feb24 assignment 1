@@ -1,0 +1,14 @@
+L = []
+E = []
+O = []
+n= int(input("enter number:"))
+for i in range(1, n + 1):
+    value = int(input("enter value:"))
+    L.append(value)
+for j in range(n):
+    if(L[j] % 2 == 0):
+        E.append(L[j])
+    else:
+        O.append(L[j])
+print("E list:",E)
+print("O list:",O)
