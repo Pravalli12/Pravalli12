@@ -1,0 +1,6 @@
+course=["mccs","mpcs","mecs","mpc","bca","bba"] 
+code=["1","2","3","4","5","6"] 
+cc=course+code 
+print(cc) 
+Output: 
+['mccs','mpcs','mecs','mpc','bca','bba','1','2','3','4','5','6',]
