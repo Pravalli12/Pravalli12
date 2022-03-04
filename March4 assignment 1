@@ -1,0 +1,32 @@
+n=int(input('enter n')) 
+l=[] 
+for i in range(n): 
+    x=int(input()) 
+    l.append(x) 
+print(l) 
+t=[] 
+for i in l: 
+    t.append(int(i)) 
+print(t) 
+y=[] 
+for i in t: 
+    if i not in y: 
+        y.append(i) 
+print(y) 
+y.sort(reverse=True) 
+print(y) 
+print(y[1]) 
+Output: 
+enter n 7 
+7
+8
+2
+4
+6
+8
+9
+[7,8,2,4,6,8,9] 
+[7,8,2,4,6,8,9] 
+[7,8,2,4,6,9] 
+[9,8,7,6,4,2] 
+8
